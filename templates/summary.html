@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <div class="container">
+                    <h1 class="display-4 heading">Text Summarizer</h1>
+                    <p class="lead">Retrieve the best summary for the text</p>
+                </div>
+            </div>
+            <div class="container" style="display:flex; justify-content: space-around">
+                <p class='original_title col-sm-4'>Original Text</p>
+                <p class='summary_title col-sm-4'>Summary</p>
+            </div>
+
+            <div class="container srt">
+                <p class="orignalTxt col-sm-6">{{original_txt}}</p>
+                <div class="container col-sm-6">
+                    <p class="summaryTxt col-sm-6">{{summary}}</p>
+                    <button class="btn_summ" type="submit" style="margin-left:  10px">Words : {{len_summary}}</button>
+                </div>
+                
+            </div>
+
+            <div class="container">
+                <button class="btn_orig" type="submit">Words : {{len_orig_txt}}</button>
+                
+            </div>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <div class="container">
+                    <h1 class="display-4 heading">Text Summarizer</h1>
+                    <p class="lead">Retrieve the best summary for the text</p>
+                </div>
+            </div>
+            <form action="/analyze" method="POST">
+                <textarea name="rawtext" class="form-control",rows=3 placeholder="Enter your raw text"></textarea>
+                <button class="submitbtn" type="submit">Submit</button>
+            </form>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
